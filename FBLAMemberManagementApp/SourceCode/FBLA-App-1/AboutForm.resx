@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBoxAbout.Text" xml:space="preserve">
+    <value>****************************************************************
+* Competitor: Suraj Masand 
+* School: Alpharetta High School in Alpharetta, GA 
+* Event: Desktop Application Programming 
+* 2016 Georgia FBLA State Leadership Conference
+* 
+* README.txt
+****************************************************************
+
+===================================
+Introduction / Notes
+===================================
+The FBLA Member Management System application was developed by Suraj Masand from Alpharetta High School for FBLA's Desktop Application Programming competition at the 2016 Georgia FBLA State Leadership Conference. The application has a simple, user-friendly interface that allows the user to view, add, and update data for FBLA members, as well as generate reports from that data. This app also allows the user to save the reports as an Excel spreadsheet or a PDF. Further information on functionality can be found in the "Instructions" section below. 
+
+This application was developed using the C# (C-sharp) programming language and the Microsoft Visual Studio 2013 IDE. The app uses an embedded database (SQLite) to store and retrieve the data. A sample of 200 mock records has been included in the database for testing purposes. The app has been tested on Windows 8.1 and Windows 10, but may also work with prior versions of Windows. *Note* The exporting to Excel (.xls) will not work unless Excel is installed on the user’s machine. 
+
+The original code has been provided and can be opened in Microsoft Visual Studio. In Visual Studio, select the "File" tab, then select "Open" --&gt; "Project/Solution" and navigate to the "SourceCode" folder and the "FBLA-App-1.sln" file inside. To open the code as a text file, you can navigate to "FBLA-App-1" within the "SourceCode" folder, right click on the ".cs" file(s), select "Open with...", and choose a text editor such as Notepad. Also, a PDF of all of the code has been provided, entitled "SourceCodePDF.pdf". A PDF of the screenshots of each screen can also be found, entitled "Screenshots.pdf". Instructions to run and use the program are found below as well as in the "About This Application" page within the application. 
+
+===================================
+Instructions
+===================================
+--- Running the Application --- 
+In order to open and run the application, open the "Execute" folder and double-click on the "FBLAMemberManagement.exe" file, or right-click on the file and select "Open". The program should automatically open up to the Home View. 
+
+--- Home View ---
+Here, you can see all of the data that is currently stored. There are 200 (fake) records as pre-populated data for testing this program. At the top right of the window, there is a link labeled "About this application", which will open a new window with all the information found here in this README file. All of this information can be found within the application by clicking that link. At the top left of the window, you will see a button that says "Show All Members". When this is clicked, all 200 records will appear in the table below. In the top middle of the window,  there is a search box, where you can search the students' FBLA membership number, first name, last name, email address, school, and state. After entering the search criteria, the table below will update the records shown. The search can be undone by clicking "Show All Members". At the top right of the window, you can see the total number of records shown, which should initially say "200" and will update if the user uses the "search" feature. 
+
+In the middle of the Home View, there is a table that shows all the data in the data table, unless the user uses the "search" function, which will yield only the search results. To edit an existing record, double-click on the record you want to edit, or select the row and click the "Edit Member" button at the bottom of the window. This will open up a new window with the member information, and the fields can be edited and saved from there. At the bottom of the window, in the center there is an "Add FBLA Member" button, which will open a form to fill out the information for a new member. All the fields are required except for the email and the amount owed (which is preset to zero). When you click save, the form will validate all the data, and if it is all validated, a new record will be added to the database. There is also a "Create Report" button at the bottom right of the window. This will open a form where you can select the criteria for a report and then generate the report. 
+
+At the top right of the window, there is a "Help" button, which will contain most of the same information as shown here in the README file. 
+
+--- Add or Edit FBLA Member ---
+To add a new FBLA Member record to the database, click the "Add FBLA Member" button at the bottom of the Home View window. This will open up a form for inputting the information associated with the FBLA Member. The Membership Number field is the number assigned by FBLA to each student. This number must only contain digits, and must be unique. The First Name and Last Name fields must also be provided. The student's email is an optional field, but if the field is not blank, it must be in a proper email format. The school name must be provided, and the school grade and state must be selected from their drop-down boxes. The final pieces of information include whether the member is active, the year the member joined FBLA, and the amount of money that the member owes. If the member does not owe any money, the default value is 0.00 dollars. Text fields that are invalid will be marked by a red background. Click "Save" at the bottom of the window to create / add the data to the database. 
+
+In the Home View, if a row is double-clicked, or if a row is highlighted and "Edit Member" is clicked, the Edit FBLA Member form will open. This form contains the same fields as the Add FBLA Member form, but all the data is pre-populated from the existing record. Here, changes can be made to all of the fields. The fields work the same way as described in the previous paragraph about adding a new FBLA member.
+
+--- Create Report Form ---
+At the bottom right of the Home View, click the "Create Report" button to start the process of creating a report. Once the new form opens up, select which types of members you would like to include in the report. For the purposes of testing, you may select the presets shown at the top of the window in the drop-down box. The first preset is a list of all members who owe money. The second preset is a list of all the seniors (12th grade students). 
+
+Whether or not you choose a preset, the report can be customized. You can choose to include members from a specific state, members who are active/inactive, and/or members who owe money. You can also decide to include members in certain grades. The final filter is to decide how to sort the report. The final options for creating the form is to choose which columns of data to include in the form. 
+
+Near the top of the window, you have the option of resetting the filters, as well as selecting all of the columns to be included in the report. Once you have selected your desired options, click "Generate Report" at the bottom of the window. 
+
+--- Generated Report and Exporting ---
+Once you have clicked "Generate Report" in the previous form, a new window will pop-up showing a table of the specified data. In the top left, the total number for records found (based on the previously selected filters) will be shown. In the top center, there is an option to change the number of records shown per page within this window. Based on the selected number of records per page, the number of pages (shown to the right) will be updated. The user can directly type in a page number or use the buttons in the upper-right corner to navigate through the pages. The bottom of the window shows several statistics about the member data that is included in the report. The total number of active and inactive members, the number of members who owe money, and the total amount owed, are all shown near the bottom. Also at the bottom of the page are options to export the report as an Excel file (.xls) or as a PDF. 
+
+*Note* - The exporting to .xls will not work unless Excel is installed on your machine. Since the Excel file is generated programmatically, there will be a confirmation prompt when you first open the Excel spreadsheet file, asking you if you want to continue since the data may not be in the proper format. Select "Yes" to continue and open the Excel file with the report data. 
+
+*Note* - The PDF button will save the report as a PDF and automatically open the file in your computer's default PDF viewer application. From there, you can print the report using your PDF-viewing application. The PDF that is created will include a maximum of 50 records per page, with a footer at the end of the report. The footer contains the same information as the bottom of the report-viewing window. 
+
+===================================
+Functions of the Classes
+===================================
+The application is composed of nine classes and one SQLite database file. Three of these classes are run in the background. These classes are: Program, FBLAMember, DButils, and Extensions. Program.cs is the entry point of the application, which tells the application which Windows Form to open first, which is the Home View in this application. The other three back-end classes contain methods and objects for the other classes to use to retrieve, store, and format data. The other four classes in the application are: HomeView, AboutForm, AddEditMember, CreateReportForm, and ReportForm. The HomeView launches the first window when the program is opened. The AboutForm class contains information about the application and help information, which is the same as the information found in this README file. The AddEditMember class opens a form to allow the user to add a record or edit the information of an exiting record. The CreateReportForm class opens a window where the user can select the filters used when generating a report, and the user can also select which columns to include in the report. The ReportForm class contains the report that was generated, along with options to export the report. 
+
+The SQLite database file, named FBLAMembership.db, contains all of the member information and comes preloaded with 200 mock records. This database is permanently affected by changes the user makes to it in the application. Therefore, all changes are stored even if the application is closed and reopened at a later date. 
+
+----- END -----</value>
+  </data>
+</root>
